@@ -39,6 +39,13 @@ export default function ExperimentsPage() {
             <li key={experiment}>{experiment}</li>
           ))}
         </ol>
+      <div
+        style={{
+          fontSize: "20px",
+          color: "black",
+        }}
+      >
+        experiment list here
       </div>
     </main>
   );
